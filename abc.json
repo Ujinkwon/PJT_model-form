@@ -1,0 +1,12 @@
+[{"model": "movies.movie", "pk": 6, "fields": {"title": "������ �ĺ�2", "audience": 550000, "release_date": "2022-09-07", "genre": "�ڹ̵�", "score": 5.0, "poster_url": "https://movie-phinf.pstatic.net/20220928_85/1664332929020nYWPc_JPEG/movie_image.jpg?type=m203_290_2", "description": "������� ���ſ��� �������� �̵� ���� ����� �� ���ֻ������ �쿬�� �ٴٿ� ���� �� û���� ���� ���� ������ Ÿ�� ���⿡�� ȭ���� ������ ��ȸ�� ��´�. ������ �����ϸ� �Ҽ��� �ٴ����� ��ι���ġ�� ������ �տ� �ٽ� �����̷� ���ư� �� ����, ���ֻ�������� ���ó�� ã�ƿ� �������� �ֵ��̡�! �̹��� ���ֻ������ �񼭽��� ������ö������ �ֵ��̰� ������ �и��� �Ǵµ�... ��̵� 2��! ������ 2��! �ֵ��� ������ �ڹ̵� ���ƿԴ�!"}}, {"model": "movies.movie", "pk": 7, "fields": {"title": "ȭ��Ʈ����: �μ��� ���", "audience": 11000, "release_date": "2021-10-06", "genre": "����", "score": 4.5, "poster_url": "https://movie-phinf.pstatic.net/20211006_115/163349582167887Dkr_JPEG/movie_image.jpg?type=m203_290_2", "description": "����� ��� ���� �л����� ���� ������� ������ ���ΰ����б�. �ֱ��� ������ �� �� ���� ����� ���ӵǴ� ��� ���� ����̶�� ���̰� ���� �Դ�. ������ ����� �ڹٲ� ���̶�� ����� �� ä�� ��谡 ���� �׳� ��, ��ħ�� �װ� �����Ѵ�!"}}, {"model": "movies.movie", "pk": 8, "fields": {"title": "���ͳ� ������", "audience": 500000, "release_date": "2005-11-10", "genre": "�θǽ�", "score": 5.0, "poster_url": "https://movie-phinf.pstatic.net/20150922_4/14429125602616zXzR_JPEG/movie_image.jpg?type=m203_290_2", "description": "������ ���� ��︸�� �����شٴ� �������縦 ã�ư� ����� ���� Ŭ����Ÿ���� ����� ������ ����Ѵ�. ����� ����� ������ ������ ����� ���۵Ǵ� ����, �ູ�� ����, ���� �ӿ� ���ε� �߾���� ����� �Ⱦ����⸸ �ϴµ�... ����� ����� �� ���ĵ� ��������? ����� �׷��� �ٽ� ���ȴ�."}}]
+
+1. python manage.py dumpdata movies > abc.json
+movies : DB 옮길 app 이름
+abc : json 파일 이름
+
+2. DB 삭제
+
+3. python manage.py loaddata abc.json
+가져올 json파일 이름
+
+https://docs.djangoproject.com/en/4.1/ref/django-admin/
